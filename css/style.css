@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100&family=Martel+Sans:wght@600;700&family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.template{
+    width: 1100px;
+    margin: 0 auto;
+}
+nav{
+    height: 50px;
+    width: auto;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+.list ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;}
+.list ul li{
+    list-style: none;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.rlist i{
+    padding-right: 20px;
+   cursor: pointer;
+}
