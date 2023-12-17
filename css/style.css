@@ -78,3 +78,100 @@ nav{
     color: white;
     cursor: pointer;
 }
+.main{
+    height: 550px;
+    width: 1000px;
+    margin-left: 50px;
+}
+.top{
+    text-align: center;
+    padding-top: 40px;
+}
+.top h3{
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.top h5{
+    font-size: 15px;
+    padding-top: 10px;
+    color: rgb(92, 92, 92)
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.box{
+    height: 230px;
+    width: 350px;
+    border: 1px solid wheat;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
+.box1{
+    background-color: rgb(109, 109, 251);
+    color: white;
+}
+.box2{
+    background-color: orange;
+    color: white;
+}
+.box3{
+    background-color: rgb(249, 2, 44);
+    color: white;
+}
+.box4{
+    background-color: rgb(61, 219, 213);
+    color: white;
+}
+.box5{
+    background-color: rgb(182, 2, 182);
+    color: white;
+}
+svg{
+    padding-top: 30px;
+}
+h3{
+    padding-top: 10px;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+button{
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.foot{ 
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 1050px;
+}
+.ir{
+    position: relative;
+}
+.ir img{
+    height: 350px;
+    width: 400px;
+    margin: auto 30px;
+    position: relative;
+    z-index: 5;
+}
+.il {
+    padding-left: 5px;
+}
+.il h2{
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.il h4{
+    text-transform: capitalize;
+    padding-top: 10px;
+    color: blue;
+    font-size: 20px;
+}
